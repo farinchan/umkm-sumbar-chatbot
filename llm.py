@@ -43,12 +43,12 @@ qa = RetrievalQA.from_chain_type(
 )
 
 
-while True:
-    print("\n Chat with me! Type 'exit' to quit.\n")
-    query = input("tanyakan sesuai konteks bang: ")
-    if query == "exit":
-        break
-    response_qa = qa.invoke(query)
+# while True:
+#     print("\n Chat with me! Type 'exit' to quit.\n")
+#     query = input("tanyakan sesuai konteks bang: ")
+#     if query == "exit":
+#         break
+#     response_qa = qa.invoke(query)
     
-    print("QA response: ", response_qa)
+#     print("QA response: ", response_qa)
 
